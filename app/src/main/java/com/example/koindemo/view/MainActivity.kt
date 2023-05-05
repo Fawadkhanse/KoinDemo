@@ -1,7 +1,9 @@
-package com.example.koindemo
+package com.example.koindemo.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.koindemo.Api
+import com.example.koindemo.R
 import org.koin.android.ext.android.get
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel

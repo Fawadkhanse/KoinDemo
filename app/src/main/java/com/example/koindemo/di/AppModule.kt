@@ -1,11 +1,10 @@
 package com.example.koindemo.di
 
 import com.example.koindemo.Api
-import com.example.koindemo.Repository
-import com.example.koindemo.RepositoryImp
-import com.example.koindemo.Viewmodel
+import com.example.koindemo.repo.Repository
+import com.example.koindemo.repo.RepositoryImp
+import com.example.koindemo.view.Viewmodel
 import org.koin.androidx.viewmodel.dsl.viewModel
-import org.koin.core.module.Module
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

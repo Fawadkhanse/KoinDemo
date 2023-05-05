@@ -1,4 +1,4 @@
-package com.example.koindemo
+package com.example.koindemo.repo
 
 interface Repository {
     fun networkCall()
